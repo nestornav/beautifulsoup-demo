@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-es" lang="es-es" >
+<head>
+  <base href="http://www.colfacor.org.ar/index.php/servicios/farm-turno" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Ezequiel" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Farmacias de Turno</title>
+  <link href="/templates/rt_afterburner/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <style type="text/css">
+
+	#wrapper { margin: 0 auto; width: 964px;padding:0;}
+	.s-c-s #colmid { left:150px;}
+	.s-c-s #colright { margin-left:-420px;}
+	.s-c-s #col1pad { margin-left:420px;}
+	.s-c-s #col2 { left:270px;width:150px;}
+	.s-c-s #col3 { width:270px;}
+	
+	.s-c-x #colright { left:150px;}
+	.s-c-x #col1wrap { right:150px;}
+	.s-c-x #col1 { margin-left:150px;}
+	.s-c-x #col2 { right:150px;width:150px;}
+	
+	.x-c-s #colright { margin-left:-270px;}
+	.x-c-s #col1 { margin-left:270px;}
+	.x-c-s #col3 { left:270px;width:270px;}
+  </style>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+	window.addEvent("load", function() {
+	SqueezeBox.open('http://www.colfacor.org.ar/popup.php?popupiniframe=true',{handler: 'iframe', size: {x: 730 , y: 530}, onUpdate:function(){$$('.sbox-content-iframe iframe').setProperty('scrolling','no');$$('.sbox-content-iframe iframe').addEvent('load', function(){;});}});
+	});
+  </script>
+
+<link rel="stylesheet" href="/templates/rt_afterburner/css/template.css" type="text/css" />
+<link rel="stylesheet" href="/templates/rt_afterburner/css/editor.css" type="text/css" />
+<!--[if lte IE 6]>
+<script type="text/javascript" src="/templates/rt_afterburner/js/ie_suckerfish.js"></script>
+<link rel="stylesheet" href="/templates/rt_afterburner/css/styles.ie.css" type="text/css" />
+<![endif]-->
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="/templates/rt_afterburner/css/styles.ie7.css" type="text/css" />
+<![endif]-->
+</head>
+<body>
+<script>
+function cerrar()
+{ document.getElementById('dic').style.visibility="hidden";}
+</script>
+<div id="main">
+  <div id="wrapper" class="foreground">
+    <div id="nav">
+        
+<ul class="menu">
+<li class="item-101"><a href="/" >Inicio</a></li><li class="item-116"><span class="separator">|</span>
+</li><li class="item-117 deeper parent"><a href="#" >Institucional</a><ul><li class="item-136"><a href="/index.php/institucional/quienes-somos" >Quienes Somos</a></li><li class="item-137"><a href="/index.php/institucional/estatuto" >Estatuto </a></li><li class="item-138"><a href="/index.php/institucional/organigrama" >Organigrama</a></li><li class="item-139"><a href="/index.php/institucional/autoridades" >Autoridades</a></li><li class="item-134 deeper parent"><a href="/index.php/institucional/delegaciones" >Delegaciones</a><ul><li class="item-143"><a href="/index.php/institucional/delegaciones/delegacion-primera" >Delegación Primera</a></li><li class="item-144"><a href="/index.php/institucional/delegaciones/delegacion-segunda" >Delegación Segunda</a></li><li class="item-145"><a href="/index.php/institucional/delegaciones/delegacion-tercera" >Delegación Tercera</a></li><li class="item-146"><a href="/index.php/institucional/delegaciones/delegacion-cuarta" >Delegación Cuarta</a></li><li class="item-147"><a href="/index.php/institucional/delegaciones/delegacion-quinta" >Delegación Quinta</a></li><li class="item-148"><a href="/index.php/institucional/delegaciones/delegacion-sexta" >Delegación Sexta</a></li></ul></li><li class="item-140"><a href="/index.php/institucional/tribunal-de-disciplina" >Tribunal de Disciplina</a></li><li class="item-141"><a href="/index.php/institucional/tribunal-de-cuentas" >Tribunal de Cuentas</a></li><li class="item-142"><a href="/index.php/institucional/convenio-colectivo" >Convenio Colectivo</a></li><li class="item-155"><a href="/index.php/institucional/asesoria-legal-y-contable" >Asesoría Legal y Contable</a></li><li class="item-272"><a href="/index.php/institucional/electorial-gral" >Junta Electoral General</a></li><li class="item-156"><a href="/index.php/institucional/fepuc" >FEPUC</a></li><li class="item-246"><a href="/index.php/institucional/contactos-institucional" >Contactos</a></li></ul></li><li class="item-118"><span class="separator">|</span>
+</li><li class="item-119 deeper parent"><a href="#" >Asuntos Profesionales</a><ul><li class="item-157"><a href="/index.php/asuntos-profesionales/matricula" >Matrícula</a></li><li class="item-173"><a href="/index.php/asuntos-profesionales/legislacion" >Legislación</a></li><li class="item-158"><a href="/index.php/asuntos-profesionales/tramites-frecuentes" >Trámites Frecuentes</a></li><li class="item-174"><a href="/index.php/asuntos-profesionales/direccion-de-farmacias" >Dirección de Farmacias</a></li><li class="item-163"><a href="/index.php/asuntos-profesionales/direcciones-utiles" >Direcciones Útiles</a></li><li class="item-164 deeper parent"><a href="/index.php/asuntos-profesionales/bolsa-de-trabajo" >Bolsa de Trabajo</a><ul><li class="item-165"><a href="/index.php/bolsadetrabajoavisos" >Avisos</a></li><li class="item-234"><a href="/index.php/bolsadetrabajoinscripcion" >Inscribirme</a></li></ul></li><li class="item-255"><a href="/index.php/asuntos-profesionales/recetas-apocrifas" >Recetas Apócrifas</a></li><li class="item-247"><a href="/index.php/asuntos-profesionales/contactos-asuntos-profesionales" >Contactos</a></li></ul></li><li class="item-120"><span class="separator">|</span>
+</li><li class="item-121 deeper parent"><a href="#" >Colfacor Gestión</a><ul><li class="item-175"><a href="/index.php/colfacor-gestion/que-es-colfacor-gestion" >¿Qué es Colfacor Gestión?</a></li><li class="item-253"><a href="/index.php/colfacor-gestion/campana-colfacor-plus" >CAMPAÑA COLFACOR plus</a></li><li class="item-135"><a href="/index.php/colfacor-gestion/obras-sociales" >Obras Sociales</a></li><li class="item-169"><a href="/index.php/colfacor-gestion/listado-de-obras-sociales" >Listado de Obras Sociales</a></li><li class="item-170"><a href="/index.php/colfacor-gestion/cierre-lotes" >Cierre de Lotes y Presentación</a></li><li class="item-277"><a href="/index.php/colfacor-gestion/actas-consejo" >Actas Consejo General</a></li><li class="item-171"><a href="http://www.colfacor.org.ar:8080/online/amd.asp" target="_blank" >Validación Online</a></li><li class="item-131"><a href="/index.php/colfacor-gestion/capacitacion-en-rentabilidad" >Capacitación en Rentabilidad</a></li><li class="item-176"><a href="/index.php/colfacor-gestion/desechos-patogenos" >Desechos Patógenos</a></li><li class="item-248"><a href="/index.php/colfacor-gestion/contactos-colfacor" >Contactos</a></li></ul></li><li class="item-122"><span class="separator">|</span>
+</li><li class="item-123 deeper parent"><a href="#" >Área de capacitación y responsabilidad social</a><ul><li class="item-266"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/conferencias-2015" >Conferencias 2015</a></li><li class="item-177"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/cursos-online" >Cursos Online</a></li><li class="item-178"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/cursos-presenciales" >Cursos Presenciales</a></li><li class="item-179"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/aula-virtual" >Aula Virtual</a></li><li class="item-180"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/certificacion-y-recertificacion-profesional" >Certificación y Recertificación Profesional</a></li><li class="item-181"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/actividades-nacionales-e-internacionales" >Actividades Nacionales e Internacionales</a></li><li class="item-182"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/responsabilidad-social" >Responsabilidad Social</a></li><li class="item-183"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comunicados-anmat" >Farmacovigilancia</a></li><li class="item-217"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/trazabilidad" >Trazabilidad</a></li><li class="item-218"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/info-medicamentos" >Info Medicamentos</a></li><li class="item-219"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/alimentos-libres-de-gluten" >Alimentos y Medicamentos Libres de Gluten</a></li><li class="item-220"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/prodemi" >PRODEMI</a></li><li class="item-132"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/trabajos-de-investigacion" >Trabajos de Investigación</a></li><li class="item-222"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/temas-especiales" target="_blank" >Temas especiales</a></li><li class="item-223"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/biblioteca" >Biblioteca</a></li><li class="item-229"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/farmacopea-argentina-7-edicion" >Farmacopea Argentina 7ª Edición</a></li><li class="item-249"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/contactos-capacitacion" >Contactos</a></li><li class="item-237 deeper parent"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones" >Comisiones</a><ul><li class="item-271"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-faccor" >Comisión FACCOR</a></li><li class="item-228"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-de-especialidades" >Comisión de Especialidades</a></li><li class="item-224"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-permanente-de-buenas-practicas" >Comisión de Buenas Prácticas</a></li><li class="item-225"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-de-preparados-oficiales-y-homeopatia" >Comisión de Preparados Oficinales y Homeopatía</a></li><li class="item-226"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-de-farmacias-asistenciales" >Comisión de Farmacias Asistenciales</a></li><li class="item-227"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-sufv" >Comisión SUFV</a></li><li class="item-265"><a href="/index.php/area-de-capacitacion-y-responsabilidad-social/comisiones/comision-droguerias" >Comisión Droguerías, Laboratorios y Afines</a></li></ul></li></ul></li><li class="item-124"><span class="separator">|</span>
+</li><li class="item-125 active deeper parent"><a href="#" >Servicios</a><ul><li class="item-166"><a href="/index.php/servicios/beneficios" >Beneficios</a></li><li class="item-276"><a href="/index.php/servicios/eve-cfc" >Eventos CFC</a></li><li class="item-259"><a href="/index.php/servicios/beneficios-colfacor-plus" >Beneficios Colfacor Plus</a></li><li class="item-167"><a href="/index.php/servicios/cultura-y-extension" >Cultura y extensión</a></li><li class="item-184"><a href="/index.php/servicios/cobertura-de-salud" >Cobertura de Salud</a></li><li class="item-168"><a href="/index.php/servicios/turismo" >Turismo</a></li><li class="item-264"><a href="/index.php/servicios/precios-sugeridos-menu" >Precios Sugeridos - Genéricos</a></li><li class="item-185"><a href="/index.php/servicios/residencia-serrana" >Residencia Serrana</a></li><li class="item-186"><a href="/index.php/servicios/olimpiadas-nacionales" >Olimpíadas Nacionales</a></li><li class="item-187"><a href="/index.php/cupones-de-pago" >Cupones de Pago</a></li><li class="item-267 current active"><a href="/index.php/servicios/farm-turno" >Farmacias de Turno</a></li><li class="item-251"><a href="/index.php/servicios/contacto-servicios" >Contactos</a></li></ul></li><li class="item-126"><span class="separator">|</span>
+</li><li class="item-127 deeper parent"><a href="#" >Comunicación</a><ul><li class="item-189"><a href="/index.php/comunicacion/info-cfc" >Info CFC</a></li><li class="item-190"><a href="/index.php/comunicacion/revista-boticario" >Revista Boticario</a></li><li class="item-129"><a href="/index.php/comunicacion/informes-de-presidencia" >Informes de Presidencia</a></li><li class="item-133"><a href="/index.php/comunicacion/comunicados-especiales" >Comunicados Especiales</a></li><li class="item-191"><a href="/index.php/comunicacion/dia-panamericano-de-la-farmacia" >Día Panamericano de la Farmacia</a></li><li class="item-192"><a href="/index.php/comunicacion/galeria-de-fotos" >Galería de Fotos</a></li><li class="item-193"><a href="/index.php/comunicacion/prensa" >Prensa</a></li><li class="item-250"><a href="/index.php/comunicacion/boticario-al-dia" >Boticario al día</a></li><li class="item-194"><a href="/index.php/comunicacion/links-de-interes" >Links de Interés</a></li><li class="item-260"><a href="/index.php/comunicacion/comunidad-cfc" >Comunidad CFC</a></li><li class="item-263"><a href="/index.php/comunicacion/noti-farmaceutico" >Noticiario Farmacéutico</a></li><li class="item-233"><a href="/index.php/comunicacion/suscripcion" >Suscripción</a></li><li class="item-252"><a href="/index.php/comunicacion/contactos-comunicacion" >Contactos</a></li></ul></li></ul>
+
+    </div>
+          <div id="header" style="height:auto; padding-bottom:10px;">
+        		<div class="module">
+		
+			    <div class="module-body">
+	        
+<ul class="menu">
+<li class="item-108"><a href="/index.php?Itemid=105" ><img src="/images/aula.png" alt="Icono Aula Virtual" /></a></li><li class="item-105"><a href="http://colfacor.educativa.com" >Aula Virtual</a></li><li class="item-109"><a href="/index.php/cupones-de-pago" ><img src="/images/cupones.png" alt="Icono Cupones de Pago" /></a></li><li class="item-106"><a href="/index.php/cupones-de-pago" >Cupones de Pago</a></li><li class="item-110"><a href="/index.php/suscripcion" ><img src="/images/contacto.png" alt="Icono Contacto" /></a></li><li class="item-232"><a href="/index.php/suscripcion" >Suscripción</a></li><li class="item-258"><a href="/index.php/colfacor-gestion/obras-sociales" ><img src="/images/btn_OS.png" alt="Icono OS" /></a></li><li class="item-257"><a href="/index.php/colfacor-gestion/obras-sociales" >Obras Sociales</a></li><li class="item-269 active"><a href="/index.php/servicios/farm-turno" ><img src="/images/farmacia_icono.png" alt="Icono FT" /></a></li></ul>
+        </div>
+	</div>
+	
+            <a href="/" id="logo" style="background-image:none;"><img src="/templates/rt_afterburner/images/logo.png"></a>
+    <div style="clear:both;"></div>
+    </div>
+        <div id="message">
+        
+<div id="system-message-container">
+</div>
+    </div>
+                        
+        <div id="main-content" class="s-c-s">
+            <div id="colmask" class="ckl-color1">
+                <div id="colmid" class="cdr-color1">
+                    <div id="colright" class="ctr-color1">
+                        <div id="col1wrap">
+              <div id="col1pad">
+                              <div id="col1">
+                                                                        <div class="component-pad">
+                                        <div class="item-page">
+
+	<h2>
+			Farmacias de Turno		</h2>
+
+
+
+
+
+
+
+
+<div style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><span style="text-decoration: underline;"><strong><span style="font-size: large;"><br /><iframe src="/turnosfarmacias/grid_turno_farmacia/" width="530" height="1500"></iframe></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span></span></strong></span><br /></span></strong></span></div>
+	
+</div>
+
+                                    </div>
+                                                </div>
+              </div>
+                        </div>
+                                    <div id="col2" class="color1">
+                          		<div class="module">
+		
+			    <div class="module-body">
+	        
+
+<div class="custom"  >
+	<div style="text-align: center;"><a href="javascript:history.back()"><img src="/images/VOLVER.gif" border="0" alt="" /></a></div></div>
+        </div>
+	</div>
+			<div class="module">
+		
+			    <div class="module-body">
+	        
+
+<div class="custom"  >
+	</div>
+        </div>
+	</div>
+	
+                        </div>
+                                                <div id="col3" class="color1">
+                          		<div class="module">
+		
+			    <div class="module-body">
+	        
+
+<div class="custom"  >
+	</div>
+        </div>
+	</div>
+	
+                        </div>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+      <div class="footer-pad">
+                
+
+<div class="custom"  >
+	<p>Colegio de Farmacéuticos Córdoba. Corro 146. Tel.: (0351) 4249511. Ciudad de Córdoba. Ley 4771. Copyright 2013</p></div>
+
+            </div>
+    </div>
+        
+    
+  </div>
+</div>
+</body>
+</html>
